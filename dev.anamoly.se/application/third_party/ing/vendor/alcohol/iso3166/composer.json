@@ -1,0 +1,37 @@
+{
+  "name": "alcohol/iso3166",
+  "description": "ISO 3166-1 PHP Library",
+  "keywords": ["ISO 3166", "ISO", "3166", "3166-1", "countries", "library"],
+  "homepage": "http://alcohol.github.io/iso3166/",
+  "license": "MIT",
+  "authors": [{
+    "name": "Rob Bast",
+    "email": "rob.bast@gmail.com"
+  }],
+  "support": {
+    "issues": "https://github.com/alcohol/iso3166/issues",
+    "source": "https://github.com/alcohol/iso3166"
+  },
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alcohol\\": "."
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6",
+    "phpunit/php-invoker": "@stable"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Alcohol\\Tests\\": "."
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.x-dev"
+    }
+  }
+}

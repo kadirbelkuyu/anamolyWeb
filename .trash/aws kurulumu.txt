@@ -1,0 +1,19 @@
+AWS KURULUM VİDEOSU 
+https://www.youtube.com/watch?v=PrkEulPOV4s
+centos 8 kurulumu yapın şuana kadar hiç sıkıntı yaşamadım 
+
+BU VİDEOYA GÖRE KURULUM YAPIN SONDA PORT YÖNLENDİRME VAR SONDA  80 - 443 - 8090 NOLU PORTLALA İZİN VERİN 
+PUTTY İLE VDS E GİRİŞ YAPTIKTAN SONRA
+
+KOMUT : sudo passwd root
+şifre gir
+
+Daha sonra root kullanıcısı için komut gir 
+Komut : su root
+verdiğin şifre 
+
+güncelleme komutu : yum install update
+cyber kurulumu    : sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh)
+
+
+

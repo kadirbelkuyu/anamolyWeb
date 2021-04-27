@@ -1,0 +1,49 @@
+{
+    "name": "mathiasverraes/classfunctions",
+    "description": "Functions to manipulate class names",
+    "homepage": "http://verraes.net",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "classes",
+        "utilities"
+    ],
+    "authors": [
+        {
+            "name": "Mathias Verraes",
+            "email": "mathias@verraes.net",
+            "role": "Developer",
+            "homepage": "http://verraes.net"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/mathiasverraes/classfunctions/issues"
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
+    },
+    "autoload": {
+        "psr-0": {
+            "Verraes": "src"
+        }
+    },
+
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+
+    "config": {
+        "bin-dir": "bin"
+    }
+}
+
+
+
+
+
